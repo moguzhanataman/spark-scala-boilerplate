@@ -12,7 +12,8 @@ SPARK_SUBMIT_SCRIPT=$SPARK_HOME/bin/spark-submit
 ASSEMBLY_JAR=./target/scala-2.10/spark-scala-microboilerplate-assembly-0.0.1.jar
 
 # Run 
+# spark-submit needs full class name: packageName.className
 $SPARK_SUBMIT_SCRIPT \
-	--class boilerplate \
+	--class Boilerplate \
+	--master local \
 	$ASSEMBLY_JAR \
-	local

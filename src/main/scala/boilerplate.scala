@@ -4,7 +4,7 @@ import org.apache.spark.SparkContext._ // for implicit conversion
 
 
 // Example code to count words.
-object Main {
+object Boilerplate {
   def main(args: Array[String]) {
 
     val inputFile = "/tmp/infile"
