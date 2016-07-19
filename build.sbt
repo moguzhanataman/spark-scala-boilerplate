@@ -1,3 +1,7 @@
+import AssemblyKeys._ // put this at the top of the file
+
+assemblySettings
+
 name := "spark-scala-microboilerplate"
 
 version := "0.0.1"
